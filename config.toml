@@ -1,0 +1,335 @@
+# Site settings
+baseurl = "/"
+languageCode = "de"
+title = "Muslim Rhein-Ruhr"
+theme = "hugo-agency-theme"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "indonesische muslim ruhr-rhein"
+  description = "Your description"
+  # email = "your@email.com"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "indonesishe Muslim Ruhr-Rhein e.V."
+    # Optional logo as brand stored in img/
+    #logo = "logo.svg"
+    services = "Über Uns"
+    portfolio = "Galerie"
+    about = "Programm"
+    team = "Donation"
+    contact = "Kontakt"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      url = "https://www.facebook.com/muslim.ruhr"
+      name = "Facebook"
+      weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "Herzlich Willkommen"
+    subtitle = "Assalamu'alaikum"
+    buttonText = "Über Uns"
+
+
+  # Services/Über Uns section
+  [params.services] # ini tuh über uns
+    enable = true
+    title = "Über Uns"
+    subtitle = "Muslim Ruhr (indonesische Muslemische Ruhr Rhein) ist ein Verein, welcher derzeit indonesisch-moslemische Familien und Studenten repräsentiert."
+# Wir betätigen sich in religiösen und kulturellen Bereichen.
+# Muslim Ruhr werden auch als ein silaturrahmi (islamische Gastfreundschaft) Forum bezeichnet,
+# an denen Männer, Frauen und Studenten sich in den verschiedenen Wohnungen und
+# anderen Räumlichkeiten der Gläubigen im Ruhr Gebiet treffen.
+# Dabei wird Islam-Unterricht übermittelt und durch ein geselliges Beisammensein abgerundet.
+# Nach den Sitzungen beten wir normalerweise zusammen und genießen uns gemeinsam die indonesischen Spezialitäten,
+# die durch Spenden und freiwilligen Hilfen angebotet werden.
+# Außer Islam/Tajweed/Quran-Unterrichten führen wir auch als indonesesische Gemeinde folgende Aktivitäten durch:
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-heart"
+      title = "Liebe zu Allah und Seinem Gesandten"
+      description = "Die Liebe zu allen Eigenschaften, durch Er die sich beschreibt und die Seiner Erhabenheit gerecht werden."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-child"
+      title = "Freundschaft im Islam"
+      description = "Die Gläubigen sind ja Brüder. Frieden zwischen unsere beiden Brüdern stiften und Gott fürchten."
+      url = "#"
+
+    [[params.services.row.list]]
+      icon = "fa-battery-half"
+      title = "Sich in Geduld üben"
+      description = "Sich gegenseitig die Wahrheit ans Herz legen und sich gegenseitig zur Geduld anhalten."
+      url = "#"
+
+  # Portfolio/Galerie section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Galerie"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+
+    # About/Programm section
+  [params.about]
+    enable = true
+    title = "Programm"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    endpoint = "Keep In<br>Touch<br>With Us!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "1.jpg"
+      date = "2009-2011"
+      title = "Our Humble Beginnings"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "March 2011"
+      title = "An Agency is Born"
+      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "Mai 10, 2018"
+      title = "Merajut Cinta Bersama Ramadhan"
+      description = "We're welcoming Ramadhan with full of love<br> Dr. Saiful Bachri M.A.<br>Wakil Ketua Seni & Budaya MUI Pusat<br>Hamza Moschee, Friedrichstrasse 50, 45468 Mülheim a.d. Ruhr<br>10:30 – 17:00 "
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "February 24, 2018"
+      title = "Kajian Darat: Fiqih Shalat"
+      description = "Present year-started workshop <br>with Ust. Hasan M.Sc. (PhD Candidate).<br>Bittweg 11, Düsseldorf<br>Um 10Uhr."
+
+
+  # Team/Donation section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Donation"
+    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Kay Garland"
+      position = "Lead Designer"
+      reportsTo = "CTO"
+      livesIn = "[Munich, Germany](#some-maps-url)"
+      scope = [
+        "UX for [member dashboard](#)",
+        "Maintainer for [awesome-project](#)",
+        "Open Source [community management](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+She worked at Pied Piper for years until they went belly up."""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "2.jpg"
+      name = "Larry Parker"
+      position = "Lead Marketer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Diana Pertersen"
+      position = "Lead Developer"
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+  # Client section
+    [params.clients_list]
+      enable = false
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.clients]]
+        logo = "envato.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "designmodo.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "themeforest.jpg"
+        link = "#"
+
+      [[params.clients]]
+        logo = "creative-market.jpg"
+        link = "#"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = "bitte senden Sie Ihre Meinung"
+    buttonText = "Send message"
+    # netlify = true
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "moeslimruhr@gmail.com"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    [params.contact.captcha]
+      # sitekey = ""
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Published under the Apache License 2.0."
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "#"
+      title = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "https://www.facebook.com/muslim.ruhr"
+      title = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "#"
+      title = "LinkedIn"
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "#"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "#"
