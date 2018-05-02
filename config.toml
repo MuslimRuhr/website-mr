@@ -30,6 +30,7 @@ googleAnalytics = ""
   # Exception: Fontawesome
   disableFonts = false
 
+
   # 404 error customization
   [params.error404]
     heading = "Page couldn't be found"
@@ -50,8 +51,8 @@ googleAnalytics = ""
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Über Uns"
-    portfolio = "Galerie"
-    about = "Programm"
+    portfolio = "Programm"
+    about = "Timeline"
     team = "Donation"
     contact = "Kontakt"
 
@@ -67,8 +68,8 @@ googleAnalytics = ""
 
     # postpended links
     [[menu.postpend]]
-      url = "https://www.facebook.com/muslim.ruhr"
-      name = "Facebook"
+      url = "http://muslimruhr.wordpress.com"
+      name = "Blog"
       weight = 10
 
 
@@ -85,11 +86,7 @@ googleAnalytics = ""
   [params.services] # ini tuh über uns
     enable = true
     title = "Über Uns"
-    subtitle = "Muslim Ruhr (indonesische Muslemische Ruhr Rhein) ist ein Verein, welcher derzeit indonesisch-moslemische Familien und Studenten repräsentiert."
-# Wir betätigen sich in religiösen und kulturellen Bereichen.
-# Muslim Ruhr werden auch als ein silaturrahmi (islamische Gastfreundschaft) Forum bezeichnet,
-# an denen Männer, Frauen und Studenten sich in den verschiedenen Wohnungen und
-# anderen Räumlichkeiten der Gläubigen im Ruhr Gebiet treffen.
+    subtitle = "Wir repräsentieren indonesisch-moslemische Familien und Studenten.<br><br>Muslim Ruhr werden auch als ein silaturrahmi (islamische Gastfreundschaft) Forum bezeichnet,<br>an denen Männer, Frauen und Studenten sich in den verschiedenen Wohnungen und<br>anderen Räumlichkeiten der Gläubigen im Ruhr Gebiet treffen."
 # Dabei wird Islam-Unterricht übermittelt und durch ein geselliges Beisammensein abgerundet.
 # Nach den Sitzungen beten wir normalerweise zusammen und genießen uns gemeinsam die indonesischen Spezialitäten,
 # die durch Spenden und freiwilligen Hilfen angebotet werden.
@@ -114,14 +111,14 @@ googleAnalytics = ""
       description = "Sich gegenseitig die Wahrheit ans Herz legen und sich gegenseitig zur Geduld anhalten."
       url = "#"
 
-  # Portfolio/Galerie section
+  # Portfolio/Programm section
   [params.portfolio]
     enable = true
     # All projects defined in their own files. You can find example projects
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Galerie"
+    title = "Programm"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
     [params.portfolio.modal]
@@ -131,11 +128,11 @@ googleAnalytics = ""
       buttonText = "Close project"
 
 
-    # About/Programm section
+    # About/Timeline section
   [params.about]
     enable = true
-    title = "Programm"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "Timeline"
+    subtitle = "Anas reported: The Messenger of Allah (sallallaahu ’alayhi wa sallam) said, <br> “He who goes forth in search of knowledge is considered as struggling in the Cause of Allah until he returns.” <br> (At-Tirmidhi)"
     endpoint = "Keep In<br>Touch<br>With Us!"
 
     # The events will be listed from the top to the bottom.
@@ -143,34 +140,34 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "coming soon in Ramadhan "
+      title = "Safari Ustadz X Forkom e.V."
+      description = "Nantikan kajian yang menentramkan hati <br> di bulan spesial Ramadhan 1439 H<br> bersama Ust. Rosihan Anwar."
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Mai 10, 2018"
+      title = "Merajut Cinta Bersama Ramadhan"
+      description = "We're welcoming Ramadhan with full of love<br> Dr. Saiful Bachri M.A.<br>Wakil Ketua Seni & Budaya MUI Pusat<br>Hamza Moschee, Friedrichstrasse 50, 45468 Mülheim a.d. Ruhr<br>10:30 – 17:00"
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "Mai 10, 2018"
-      title = "Merajut Cinta Bersama Ramadhan"
-      description = "We're welcoming Ramadhan with full of love<br> Dr. Saiful Bachri M.A.<br>Wakil Ketua Seni & Budaya MUI Pusat<br>Hamza Moschee, Friedrichstrasse 50, 45468 Mülheim a.d. Ruhr<br>10:30 – 17:00 "
-
-    [[params.about.events]]
-      img = "4.jpg"
       date = "February 24, 2018"
       title = "Kajian Darat: Fiqih Shalat"
       description = "Present year-started workshop <br>with Ust. Hasan M.Sc. (PhD Candidate).<br>Bittweg 11, Düsseldorf<br>Um 10Uhr."
+
+    # [[params.about.events]]
+    #   img = "4.jpg"
+    #   date = "February 24, 2018"
+    #   title = "Kajian Darat: Fiqih Shalat"
+    #   description = "Present year-started workshop <br>with Ust. Hasan M.Sc. (PhD Candidate).<br>Bittweg 11, Düsseldorf<br>Um 10Uhr."
 
 
   # Team/Donation section
   [params.team]
     enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "Donation"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -179,7 +176,7 @@ googleAnalytics = ""
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
+      img = "a.jpg"
       name = "Kay Garland"
       position = "Lead Designer"
       reportsTo = "CTO"
@@ -198,25 +195,25 @@ She worked at Pied Piper for years until they went belly up."""
         ["fa-linkedin", "#"]
       ]
 
-    [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
-
-    [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
-      social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
-      ]
+    # [[params.team.members]]
+    #   img = "2.jpg"
+    #   name = "Larry Parker"
+    #   position = "Lead Marketer"
+    #   social = [
+    #     ["fa-twitter", "#"],
+    #     ["fa-facebook", "#"],
+    #     ["fa-linkedin", "#"]
+    #   ]
+    #
+    # [[params.team.members]]
+    #   img = "3.jpg"
+    #   name = "Diana Pertersen"
+    #   position = "Lead Developer"
+    #   social = [
+    #     ["fa-twitter", "#"],
+    #     ["fa-facebook", "#"],
+    #     ["fa-linkedin", "#"]
+    #   ]
 
   # Client section
     [params.clients_list]
@@ -271,7 +268,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "moeslimruhr@gmail.com"
+    email = "kontakt@imrr-ev.de"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
