@@ -9,14 +9,10 @@
     </div>
     <div class="row flexbox{{ if .Site.Params.team.center }} flexbox-center{{ end }}">
       {{ range .Site.Params.team.members }}
-        <div class="col-sm-10 col">
+        <div class="col-sm-4 col">
           <div class="team-member">
             {{ $url := printf "img/team/%s" .img }}
-<<<<<<< HEAD
-            <img src="{{ $url | absURL }}" alt="{{ .name }}">
-=======
-            <img src="{{ $url | absURL }}" class="img-responsive" alt="{{ .name }}">
->>>>>>> 016b622da0cc65bb7622b0466cd22f3b47c04e9b
+            <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
             <h3>{{ .name | markdownify }}</h3>
 
             {{ with .position }}
