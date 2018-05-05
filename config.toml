@@ -119,7 +119,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Programm"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    subtitle = "Anas reported: The Messenger of Allah (sallallaahu ’alayhi wa sallam) said, <br> “He who goes forth in search of knowledge is considered as struggling in the Cause of Allah until he returns.” <br> (At-Tirmidhi)"
 
     [params.portfolio.modal]
       client = "Client"
@@ -132,7 +132,7 @@ googleAnalytics = ""
   [params.about]
     enable = true
     title = "Timeline"
-    subtitle = "Anas reported: The Messenger of Allah (sallallaahu ’alayhi wa sallam) said, <br> “He who goes forth in search of knowledge is considered as struggling in the Cause of Allah until he returns.” <br> (At-Tirmidhi)"
+    subtitle = "Aktuelle Programmsplanung"
     endpoint = "Keep In<br>Touch<br>With Us!"
 
     # The events will be listed from the top to the bottom.
@@ -169,8 +169,8 @@ googleAnalytics = ""
     # Possibility to center items
     center = true
     title = "Donation"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    #subtitle = "Lorem ipsum dolor sit amet consectetur."
+    #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -275,7 +275,7 @@ She worked at Pied Piper for years until they went belly up."""
     #error = "Message could not be send. Please contact us at mail@example.com instead."
 
     [params.contact.captcha]
-      # sitekey = ""
+      sitekey = ""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
