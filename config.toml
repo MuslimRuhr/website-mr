@@ -177,13 +177,13 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "a.jpg"
-      name = "Indonesische Muslim Ruhr-Rhein e.V."
-      position = "Commerzbank Bochum"
+      name = "Indonesische Muslim Ruhr-Rhein"
+      position = "a/n Turangga Lazuardi"
       # reportsTo = "CTO"
       # livesIn = "[Munich, Germany](#some-maps-url)"
       scope = [
-        "IBAN : [DE812007002400393XXXXX](#)",
-        "BIC : [DEUTDEDXXXX](#)",
+        "IBAN : [DE60 1007 0024 0644 4525 00](#)",
+        "BIC : [DEUTDEDBBER](#)",
         "Verwendungszweck : [Infaq_MuslimRuhr] (#)"
       ]
       # For bio markdown and even multiline strings are available.
