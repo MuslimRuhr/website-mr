@@ -187,12 +187,9 @@ googleAnalytics = ""
       # reportsTo = "CTO"
       # livesIn = "[Munich, Germany](#some-maps-url)"
       scope = [
-          <p style = "margin-left: 5em;">
         "IBAN : DE60 1007 0024 0644 4525 00",
         "BIC : DEUTDEDBBER",
         "Verwendungszweck : Infaq_MuslimRuhr"
-          </p>
-
       ]
       # For bio markdown and even multiline strings are available.
       bio = """Phone: 017658001733 <br> Email: kontakt@imrr-ev.de <br>"""
