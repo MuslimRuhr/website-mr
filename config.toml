@@ -47,7 +47,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "indonesishe Muslim rhein-ruhr e.V."
+    brand = "indonesishe Muslim Rhein-Ruhr e.V."
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Über Uns"
@@ -140,6 +140,7 @@ googleAnalytics = ""
     subtitle = "Aktuelle Programmsplanung"
     endpoint = "Keep In<br>Touch<br>With Us!"
 
+
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
@@ -182,23 +183,24 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "a.jpg"
-      name = "Indonesische Muslim Rhein-Ruhr"
-      position = "a/n Turangga Lazuardi"
+      name = "Indonesische Muslim Rhein-Ruhr e.V."
+      position = "Bankverbindung"
       # reportsTo = "CTO"
       # livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "IBAN : DE60 1007 0024 0644 4525 00",
-        "BIC : DEUTDEDBBER",
-        "Verwendungszweck : Infaq_MuslimRuhr"
-      ]
+      # scope = [
+      #   "Turangga Lazuardi",
+      #   "Deutsche Bank PGK Berlin",
+      #   "IBAN : DE60 1007 0024 0644 4525 00",
+      #   "SWIFT/BIC : DEUTDEDBBER",
+      #   "Verwendungszweck : Infaq_MuslimRuhr"
+              # ]
       # For bio markdown and even multiline strings are available.
-      bio = """Phone: 017658001733 <br> Email: kontakt@imrr-ev.de <br>"""
+      bio = """Turangga Lazuardi <br> IBAN : DE60 1007 0024 0644 4525 00 <br> SWIFT/BIC : DEUTDEDBBER <br> Verwendungszweck : Infaq_MuslimRuhr"""
       social = [
         ["fa-youtube", "https://www.youtube.com/channel/UCaSXFtmCJT_iiDvsaJqLRFw"],
         ["fa-facebook", "https://www.facebook.com/muslim.ruhr"],
         ["fa-wordpress", "https://muslimruhr.wordpress.com"]
       ]
-
     # [[params.team.members]]
     #   img = "2.jpg"
     #   name = "Larry Parker"
