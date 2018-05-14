@@ -17,7 +17,7 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "indonesische muslim ruhr-rhein"
+  name = "indonesische muslim rhein-ruhr"
   description = "Your description"
   # email = "your@email.com"
 
@@ -47,7 +47,7 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "indonesishe Muslim Ruhr-Rhein e.V."
+    brand = "indonesishe Muslim rhein-ruhr e.V."
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
     services = "Über Uns"
@@ -177,7 +177,7 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "a.jpg"
-      name = "Indonesische Muslim Ruhr-Rhein"
+      name = "Indonesische Muslim rhein-ruhr"
       position = "a/n Turangga Lazuardi"
       # reportsTo = "CTO"
       # livesIn = "[Munich, Germany](#some-maps-url)"
@@ -305,7 +305,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "indonesishe Muslim Ruhr-Rhein e.V.® 2018"
+    copyright = "indonesishe Muslim rhein-ruhr e.V.® 2018"
 
     [[params.footer.social]]
       icon = "fa-youtube"
