@@ -19,8 +19,7 @@ googleAnalytics = ""
   # information about you and your website.
   name = "muslimruhr"
   description = "indonesishe Muslim Rhein-Ruhr"
-  email = "kontakt@imrr-ev.de"
-
+  email = "moeslimruhr@gmail.com"
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
