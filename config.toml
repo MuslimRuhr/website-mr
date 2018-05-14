@@ -17,9 +17,9 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "indonesische muslim rhein-ruhr"
-  description = "Your description"
-  # email = "your@email.com"
+  name = "muslimruhr"
+  description = "indonesishe Muslim Rhein-Ruhr"
+  email = "kontakt@imrr-ev.de"
 
   # Link custom assets relative to /static
   custom_css = []
@@ -53,7 +53,7 @@ googleAnalytics = ""
     services = "Über Uns"
     portfolio = "Programm"
     about = "Timeline"
-    team = "Donation"
+    team = "Spenden"
     contact = "Kontakt"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
@@ -70,6 +70,11 @@ googleAnalytics = ""
     [[menu.postpend]]
       url = "http://muslimruhr.wordpress.com"
       name = "Blog"
+      weight = 10
+
+    [[menu.postpend]]
+      url = "https://www.youtube.com/channel/UCaSXFtmCJT_iiDvsaJqLRFw"
+      name = "Video"
       weight = 10
 
 
@@ -168,7 +173,7 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     center = true
-    title = "Donation"
+    title = "Spenden"
     #subtitle = "Lorem ipsum dolor sit amet consectetur."
     #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
@@ -177,14 +182,17 @@ googleAnalytics = ""
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
       img = "a.jpg"
-      name = "Indonesische Muslim rhein-ruhr"
+      name = "Indonesische Muslim Rhein-Ruhr"
       position = "a/n Turangga Lazuardi"
       # reportsTo = "CTO"
       # livesIn = "[Munich, Germany](#some-maps-url)"
       scope = [
-        "IBAN : [DE60 1007 0024 0644 4525 00](#)",
-        "BIC : [DEUTDEDBBER](#)",
-        "Verwendungszweck : [Infaq_MuslimRuhr] (#)"
+          <p style = "margin-left: 5em;">
+        "IBAN : DE60 1007 0024 0644 4525 00",
+        "BIC : DEUTDEDBBER",
+        "Verwendungszweck : Infaq_MuslimRuhr"
+          </p>
+
       ]
       # For bio markdown and even multiline strings are available.
       bio = """Phone: 017658001733 <br> Email: kontakt@imrr-ev.de <br>"""
@@ -305,7 +313,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "indonesishe Muslim rhein-ruhr e.V.® 2018"
+    copyright = "indonesishe Muslim Rhein-Ruhr e.V.® 2018"
 
     [[params.footer.social]]
       icon = "fa-youtube"
