@@ -144,28 +144,36 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
+    img = "5.jpg"
+    date = "Mai 26, 2018"
+    title = "Safari Ustadz Forkom X Pengajian Lenggang"
+    description = "17:00 CEST<br>Sancipa - Kirchstr. 116, 45478 Mülheim an der Ruhr<br>Tema: Fiqh Minoritas<br>Link: https://bit.ly/2s9lJtx"
+
+
+    [[params.about.events]]
+    img = "kmr.jpg"
+    date = "Mai 26, 2018"
+    title = "Safari Ustadz Forkom X Kajian Muslimah Ruhr"
+    description = "11:00 CEST <br>Online Streaming https://bit.ly/2LhFpEf <br>Tema: Wanita Sholehah Berkarir"
+
+
+    [[params.about.events]]
       img = "1.jpg"
-      date = "Mai 24-26 2018"
+      date = "Mai 25, 2018"
       title = "Safari Ustadz Forkom X MuslimRuhr"
-      description = "Pengajian MuslimRuhr<br>sWaktu: 25 Mei 2018 | 18:30 CEST<br>Lokasi: Kediaman Ibu Sofie - An der Gümpgesbrücke 10, 41564 Kaarst"
+      description = "18:30 CEST<br>Kediaman Ibu Sofie - An der Gümpgesbrücke 10, 41564 Kaarst<br>Tema: Mencari Keberkahan di Bulan Ramadhan<br>Link: https://bit.ly/2s9lJtx"
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "Mai 24, 2018"
+      title = "Safari Ustadz Forkom X Pengajian Bochum-Dortmund"
+      description = "18:00 CEST<br>Kediaman Wirasomantri - Prinzenstr. 23, <br> 44809 Bochum<br>Tema: Fiqh Muamalah<br>Link: https://bit.ly/2IJkqIL "
 
     [[params.about.events]]
       img = "2.jpg"
       date = "Mai 10, 2018"
       title = "Merajut Cinta Bersama Ramadhan"
       description = "We're welcoming Ramadhan with full of love<br> Dr. Saiful Bachri M.A.<br>Wakil Ketua Seni & Budaya MUI Pusat<br>Hamza Moschee, Friedrichstrasse 50, 45468 Mülheim a.d. Ruhr<br>10:30 – 17:00"
-
-    [[params.about.events]]
-      img = "3.jpg"
-      date = "February 24, 2018"
-      title = "Kajian Darat: Fiqih Shalat"
-      description = "Present year-started workshop <br>with Ust. Hasan M.Sc. (PhD Candidate).<br>Bittweg 11, Düsseldorf<br>Um 10Uhr."
-
-    # [[params.about.events]]
-    #   img = "4.jpg"
-    #   date = "February 24, 2018"
-    #   title = "Kajian Darat: Fiqih Shalat"
-    #   description = "Present year-started workshop <br>with Ust. Hasan M.Sc. (PhD Candidate).<br>Bittweg 11, Düsseldorf<br>Um 10Uhr."
 
 
   # Team/Donation section
