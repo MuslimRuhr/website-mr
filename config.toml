@@ -145,13 +145,9 @@ googleAnalytics = ""
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "Mai 24-26. 2018"
+      date = "Mai 24-26 2018"
       title = "Safari Ustadz Forkom X MuslimRuhr"
-      description = "Pengajian MuslimRuhr<br>
-                    Waktu: 25 Mei 2018 | 18:30 CEST<br>
-                    Lokasi: Kediaman Ibu Sofie - An der Gümpgesbrücke 10, 41564 Kaarst<br>
-                    Tema: Mencari Keberkahan di Bulan Ramadhan<br>
-                    Link: https://bit.ly/2s9lJtx"
+      description = "Pengajian MuslimRuhr<br>sWaktu: 25 Mei 2018 | 18:30 CEST<br>Lokasi: Kediaman Ibu Sofie - An der Gümpgesbrücke 10, 41564 Kaarst"
 
     [[params.about.events]]
       img = "2.jpg"
