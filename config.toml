@@ -144,11 +144,16 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
+    img = "ZF.jpg"
+    date = "Juni 15, 2018"
+    title = "Zuckerfest"
+    description = "Coming Soon the details <br> Fastenbrechenfest or Eidul Fitr"
+
+    [[params.about.events]]
     img = "5.jpg"
     date = "Mai 26, 2018"
     title = "Safari Ustadz Forkom X Pengajian Lenggang"
     description = "17:00 CEST<br>Sancipa - Kirchstr. 116, 45478 Mülheim an der Ruhr<br>Tema: Fiqh Minoritas<br>Link: https://bit.ly/2s9lJtx"
-
 
     [[params.about.events]]
     img = "kmr.jpg"
