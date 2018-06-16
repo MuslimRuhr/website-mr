@@ -123,7 +123,7 @@ googleAnalytics = ""
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
     title = "Programm"
-    subtitle = "Anas reported: The Messenger of Allah (sallallaahu ’alayhi wa sallam) said, <br> “He who goes forth in search of knowledge is considered as struggling in the Cause of Allah until he returns.” <br> (At-Tirmidhi)"
+    subtitle = "Anas Radhiallahu 'anhu reported: The Messenger of Allah (sallallaahu ’alayhi wa sallam) said, <br> “He who goes forth in search of knowledge is considered as struggling in the Cause of Allah until he returns.” <br> (At-Tirmidhi)"
 
     [params.portfolio.modal]
       client = "Client"
@@ -153,7 +153,7 @@ googleAnalytics = ""
     img = "5.jpg"
     date = "Mai 26, 2018"
     title = "Safari Ustadz Forkom X Pengajian Lenggang"
-    description = "17:00 CEST<br>Sancipa - Kirchstr. 116, 45478 Mülheim an der Ruhr<br>Tema: Fiqh Minoritas<br>Link: https://bit.ly/2s9lJtx"
+    description = "17:00 CEST<br>Sancipa Mülheim an der Ruhr<br>Tema: Fiqh Minoritas<br>Link: https://bit.ly/2s9lJtx"
 
     [[params.about.events]]
     img = "kmr.jpg"
@@ -166,19 +166,19 @@ googleAnalytics = ""
       img = "1.jpg"
       date = "Mai 25, 2018"
       title = "Safari Ustadz Forkom X MuslimRuhr"
-      description = "18:30 CEST<br>Kediaman Ibu Sofie - An der Gümpgesbrücke 10, 41564 Kaarst<br>Tema: Mencari Keberkahan di Bulan Ramadhan<br>Link: https://bit.ly/2s9lJtx"
+      description = "18:30 CEST<br>Kediaman Ibu Sofie<br>Tema: Mencari Keberkahan di Bulan Ramadhan<br>Link: https://bit.ly/2s9lJtx"
 
     [[params.about.events]]
       img = "4.jpg"
       date = "Mai 24, 2018"
       title = "Safari Ustadz Forkom X Pengajian Bochum-Dortmund"
-      description = "18:00 CEST<br>Kediaman Wirasomantri - Prinzenstr. 23, <br> 44809 Bochum<br>Tema: Fiqh Muamalah<br>Link: https://bit.ly/2IJkqIL "
+      description = "18:00 CEST<br>Kediaman Wirasomantri<br>Tema: Fiqh Muamalah<br>Link: https://bit.ly/2IJkqIL "
 
     [[params.about.events]]
       img = "2.jpg"
       date = "Mai 10, 2018"
       title = "Merajut Cinta Bersama Ramadhan"
-      description = "We're welcoming Ramadhan with full of love<br> Dr. Saiful Bachri M.A.<br>Wakil Ketua Seni & Budaya MUI Pusat<br>Hamza Moschee, Friedrichstrasse 50, 45468 Mülheim a.d. Ruhr<br>10:30 – 17:00"
+      description = "We're welcoming Ramadhan with full of love<br> Dr. Saiful Bachri M.A.<br>Wakil Ketua Seni & Budaya MUI Pusat<br>Hamza Moschee Mülheim a.d. Ruhr<br>10:30 – 17:00"
 
 
   # Team/Donation section
