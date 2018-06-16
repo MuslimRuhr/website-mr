@@ -147,7 +147,7 @@ googleAnalytics = ""
     img = "ZF.jpg"
     date = "Juni 15, 2018"
     title = "Zuckerfest"
-    description = "Coming Soon the details <br> Fastenbrechenfest or Eidul Fitr"
+    description = "Bürgerhaus Duisburg<br>09:30 CET"
 
     [[params.about.events]]
     img = "5.jpg"
