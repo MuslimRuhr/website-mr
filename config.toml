@@ -144,6 +144,12 @@ googleAnalytics = ""
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
+    img = "2.jpg"
+    date = "Januari 27, 2019"
+    title = "Pengajian Awal Tahun MuslimRuhr Featuring Ust. ACT"
+    description = "Tema:Sejarah Islam<br>Pemateri: Ust. Aan Chandra Thalib Lc. <br>Link:https://bit.ly/2RYIAqK"
+
+    [[params.about.events]]
     img = "3_1.jpg"
     date = "Juli 21, 2018"
     title = "Pengajian Darat MuslimRuhr"
@@ -179,12 +185,6 @@ googleAnalytics = ""
       date = "Mai 24, 2018"
       title = "Safari Ustadz Forkom X Pengajian Bochum-Dortmund"
       description = "18:00 CEST<br>Kediaman Wirasomantri<br>Tema: Fiqh Muamalah<br>Link: https://bit.ly/2IJkqIL "
-
-    [[params.about.events]]
-      img = "2.jpg"
-      date = "Mai 10, 2018"
-      title = "Merajut Cinta Bersama Ramadhan"
-      description = "We're welcoming Ramadhan with full of love<br> Dr. Saiful Bachri M.A.<br>Wakil Ketua Seni & Budaya MUI Pusat<br>Hamza Moschee Mülheim a.d. Ruhr<br>10:30 – 17:00<br>Link: https://bit.ly/2LXfvFh"
 
 
   # Team/Donation section
